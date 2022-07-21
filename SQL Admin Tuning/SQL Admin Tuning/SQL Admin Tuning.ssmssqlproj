@@ -43,6 +43,12 @@
           <AssociatedConnUserName />
           <FullPath>04_DBSettings.sql</FullPath>
         </FileNode>
+        <FileNode Name="05_Salamitaktik.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_Salamitaktik.sql</FullPath>
+        </FileNode>
         <FileNode Name="ADR_Fill1.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
