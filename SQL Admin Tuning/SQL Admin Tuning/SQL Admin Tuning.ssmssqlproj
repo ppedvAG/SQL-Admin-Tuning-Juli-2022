@@ -37,6 +37,42 @@
           <AssociatedConnUserName />
           <FullPath>03_MAXDOP.sql</FullPath>
         </FileNode>
+        <FileNode Name="04_DBSettings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_DBSettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADR_Fill1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ADR_Fill1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADR_Fill2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ADR_Fill2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADR_Kill.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ADR_Kill.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ADR_SETUP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ADR_SETUP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Filetable.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Filetable.sql</FullPath>
+        </FileNode>
         <FileNode Name="X_Spieltabelle.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
