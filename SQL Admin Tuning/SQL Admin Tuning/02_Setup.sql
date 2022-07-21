@@ -41,3 +41,28 @@ select * from #t
 --früher (2014) : MAXDOP 0  = alle
 
 
+
+
+RAM
+
+MAX RAM  gilt immer sofort
+Gesamt minus OS (NT)
+
+MIN RAM
+der Wert gilt erst, wenn auch die Daten im Speicher gelandet
+falls Konkurrenz existiert, dann MIN RAM <> 0
+
+
+--Filestreaming
+--Datentyp image / text  ... depricated seit 2005
+--max 2 GB
+
+--WinFS-- seit SQL  2012
+
+
+\\Server\INSTANZ\DB\TAB
+
+select * from TAB  (Volltextsuche)
+
+Security über TAB in SQL Server
+Backup in SQL 
