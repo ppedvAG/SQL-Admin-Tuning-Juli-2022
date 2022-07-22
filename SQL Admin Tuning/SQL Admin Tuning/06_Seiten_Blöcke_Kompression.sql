@@ -100,12 +100,35 @@ select * from ku where id = 10
 
 set statistics io, time on
 
--- SQL Neustart --> Arbeotsspeicher: 
+-- SQL Neustart --> Arbeotsspeicher:  286
 select * from northwind..txy
---RAM:
---Seiten:
---CPU:
---Dauer:
+--RAM: ++160MB
+--Seiten: 20000
+--CPU: 250
+--Dauer: 1935
+
+
+--NACH KOMPRESSION ..f¸r die Anwendung transarent.. die weiss nix
+--Seitenkompression:  ca 160MB -->  0,5 MB
+set statistics io, time on
+
+-- SQL Neustart --> Arbeitsspeicher:  286 -- gleich
+select * from northwind..txy
+--RAM: --> mehr  oder weniger-- nur die Anzahl der Seiten 30 mehr im RAM -- 500kb
+--Seiten: weniger    30 Seiten
+--CPU:   weniger, aber in Realit‰t eher mehr
+--Dauer:   k¸rzer - -gleich
+
+--Kompresssion  ich bezahle RAM mit CPU Leistung
+-- bei CPU Mangel keine Kompression
+--keine KOpresssion wenn 100 --> 80%
+
+--Ideal: Archivdaten
+--cool... Partition und Archiv l‰ﬂt sich kombinieren
+
+
+
+
 
 
 
