@@ -2,8 +2,9 @@
 -- Profiler  
 --Vorlage Standard anspassen
 -- wichtige Dinge Startzeit, Dauer, CPU Read writes, TSQL und SP Anweisungen
---in Datei (limit erhöhen evtl Rollover)
+--in Datei (limit erhöhen evtl Rollover rausnehmen)
 --Endzeit angeben
+--Filter setzen
 
 
 --Perfmon  siehe  vorlage SQLPerfmonVorlage.xml
